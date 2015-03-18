@@ -1,3 +1,19 @@
+%% Part I: Overall EFSM
+state(dormant). 
+state(init).
+state(idle).
+state(monitoring).
+state(error_diagnosis).
+state(safe_shutdown).
+%%start(dormant).
+%%final(dormant).
+
+%% transition(SourceState, DestinationSate, Event, Guard, Action).
+
+
+%% Part II: Refine init
+
+%% Part VI: Simulating your machine
 is_loop(Event, Guard).
 all_loops(Set).
 is_edge(Event, Guard).
