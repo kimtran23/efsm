@@ -76,3 +76,5 @@ get_event(Ret).
 get_actions(Ret).
 get_only_guarded(Ret).
 legal_events_of(State, L).
+
+%%test.
